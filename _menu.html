@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <a style ="color:white;font-size: 50px;" href = http://127.0.0.1:5000/pizzeria/nizzita> Nizzita</a>
+    <h3>Menu</h3>
+</head>
+<body style="background-color: black;color: white;font-size: 30px;">
+
+{% for key, val in context.items() %}
+    <li>{{ key }} => {{ val }}</li>
+    {% endfor %}
+    <center><img src="https://th.bing.com/th/id/OIP._MN-WDEhYJGhbV-pArW_qAHaE8?w=288&h=192&c=7&r=0&o=5&cb=11&pid=1.7" alt="The best pizzeria in the world" width="500px" height="500px"></center>
+    
+    
+</body>
+</html>
+
+
+
